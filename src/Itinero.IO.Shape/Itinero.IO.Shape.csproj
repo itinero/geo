@@ -13,13 +13,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Itinero" Version="1.4.0-pre18" />
     <PackageReference Include="NetTopologySuite" Version="1.15.0-pre027" />
     <PackageReference Include="NetTopologySuite.IO.PortableShape" Version="0.0.1-pre002" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Itinero.Geo\Itinero.Geo.csproj" />
-    <ProjectReference Include="..\Itinero\Itinero.csproj" />
   </ItemGroup>
 
   <ItemGroup Condition=" '$(TargetFramework)' == 'net40' ">
