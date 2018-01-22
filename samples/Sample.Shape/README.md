@@ -8,6 +8,13 @@ First define a vehicle and it's profile based on the data model in the shapefile
 -- car globals
 name = "nwb.car"
 
+-- global profile parameters.
+-- defines columns in the shapefile.
+parameters = {
+	source_vertex = "JTE_ID_BEG",
+	target_vertex = "JTE_ID_END"
+}
+
 -- whitelists for profile and meta
 profile_whitelist = {
     "BST_CODE", 
