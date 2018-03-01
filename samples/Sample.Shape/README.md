@@ -220,8 +220,7 @@ And process the data:
 // create a new router db and load the shapefile.
 var vehicle = DynamicVehicle.LoadFromStream(File.OpenRead("car.lua")); // load data for the car profile.
 var routerDb = new RouterDb(EdgeDataSerializer.MAX_DISTANCE);
-routerDb.LoadFromShape("/path/to/shape/", "wegvakken.shp", 
-  "JTE_ID_BEG",  "JTE_ID_END", vehicle);
+routerDb.LoadFromShape("/path/to/shape/", "wegvakken.shp", vehicle);
 
 // write the router db to disk for later use.
 routerDb.Serialize(File.OpenWrite("nwb.routerdb"));
