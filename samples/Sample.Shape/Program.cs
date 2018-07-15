@@ -63,7 +63,7 @@ namespace Sample.Shape
                 new Coordinate(51.58711643524425f, 5.4957228899002075f));
 
             // generate instructions based on lua profile.
-            var instructions = route.GenerateInstructions();
+            var instructions = route.GenerateInstructions(routerDb);
         }
     }
 }

@@ -8,8 +8,8 @@
     <ProjectReference Include="..\..\src\Itinero.IO.Shape\Itinero.IO.Shape.csproj" />
   </ItemGroup>
   <ItemGroup>
-    <None Update="car.lua">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
+    <PackageReference Include="Itinero.IO.Osm" Version="1.4.0-pre63" />
+    <PackageReference Include="NetTopologySuite.IO.GeoJSON" Version="1.15.0-pre027" />
+    <PackageReference Include="NUnit" Version="3.4.1" />
   </ItemGroup>
 </Project>
