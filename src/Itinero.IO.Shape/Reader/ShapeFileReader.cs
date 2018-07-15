@@ -27,6 +27,7 @@ using Itinero.Algorithms.Search.Hilbert;
 using Itinero.Data.Network;
 using Itinero.Profiles;
 using System.Linq;
+using System.Threading;
 using NetTopologySuite.IO.PortableShape;
 
 namespace Itinero.IO.Shape.Reader
@@ -103,7 +104,7 @@ namespace Itinero.IO.Shape.Reader
         /// <summary>
         /// Executes the actual algorithm.
         /// </summary>
-        protected override void DoRun()
+        protected override void DoRun(CancellationToken cancellationToken)
         {
             foreach (var vehicle in _vehicles)
             {

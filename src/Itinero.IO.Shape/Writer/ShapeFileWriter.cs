@@ -19,6 +19,7 @@
 using Itinero.Algorithms;
 using NetTopologySuite.IO;
 using System.Collections.Generic;
+using System.Threading;
 using NetTopologySuite.Geometries;
 using Itinero.Profiles;
 using NetTopologySuite.IO.PortableShape;
@@ -47,7 +48,7 @@ namespace Itinero.IO.Shape.Writer
         /// <summary>
         /// Executes the actual algorithm.
         /// </summary>
-        protected override void DoRun()
+        protected override void DoRun(CancellationToken cancellationToken)
         {            
             // assumed here all arguments are as they should be.
             var features = new FeaturesList(_routerDb, _profiles);

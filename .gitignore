@@ -40,6 +40,9 @@ TestResult*.xml
 *.routerdb
 *.osm.pbf
 
+.idea
+.idea/*
+
 *.shp
 *.dbf
 *.shx
