@@ -18,23 +18,23 @@
         <tags>osm, openstreetmap, routing, nts</tags>
         <dependencies>
             <group targetFramework=".NETFramework4.0">
-                <dependency id="Itinero.Geo" version="1.4.0-pre63" exclude="Build,Analyzers"/>
+                <dependency id="Itinero.Geo" version="1.4.0-pre20" exclude="Build,Analyzers"/>
                 <dependency id="NetTopologySuite" version="1.15.0-pre027" exclude="Build,Analyzers"/>
                 <dependency id="NetTopologySuite.IO.PortableShape" version="0.0.1-pre002" exclude="Build,Analyzers"/>
             </group>
             <group targetFramework=".NETFramework4.5">
-                <dependency id="Itinero.Geo" version="1.4.0-pre63" exclude="Build,Analyzers"/>
+                <dependency id="Itinero.Geo" version="1.4.0-pre20" exclude="Build,Analyzers"/>
                 <dependency id="NetTopologySuite" version="1.15.0-pre027" exclude="Build,Analyzers"/>
                 <dependency id="NetTopologySuite.IO.PortableShape" version="0.0.1-pre002" exclude="Build,Analyzers"/>
             </group>
             <group targetFramework=".NETStandard1.3">
-                <dependency id="Itinero.Geo" version="1.4.0-pre63" exclude="Build,Analyzers"/>
+                <dependency id="Itinero.Geo" version="1.4.0-pre20" exclude="Build,Analyzers"/>
                 <dependency id="NETStandard.Library" version="1.6.1" exclude="Build,Analyzers"/>
                 <dependency id="NetTopologySuite" version="1.15.0-pre027" exclude="Build,Analyzers"/>
                 <dependency id="NetTopologySuite.IO.PortableShape" version="0.0.1-pre002" exclude="Build,Analyzers"/>
             </group>
             <group targetFramework=".NETStandard2.0">
-                <dependency id="Itinero.Geo" version="1.4.0-pre63" exclude="Build,Analyzers"/>
+                <dependency id="Itinero.Geo" version="1.4.0-pre20" exclude="Build,Analyzers"/>
                 <dependency id="NetTopologySuite" version="1.15.0-pre027" exclude="Build,Analyzers"/>
             </group>
         </dependencies>
